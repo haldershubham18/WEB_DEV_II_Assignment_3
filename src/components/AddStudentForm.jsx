@@ -38,8 +38,8 @@ function AddStudentForm({ onAddStudent }) {
 
   return (
     <form className="add-student-form" onSubmit={handleSubmit}>
-      <h2>Add New Student</h2>
-      <div style={{display: 'flex', alignItems: 'flex-end', gap: '10px', flexWrap: 'wrap'}}>
+      <h2 className="form-title">Add New Student</h2>
+      <div className="form-actions">
         <div className="form-group">
           <label htmlFor="name">Student Name:</label>
           <input
