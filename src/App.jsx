@@ -22,7 +22,6 @@ function App() {
     setStudents([...students, newStudent])
   }
 
-  // Calculate statistics
   const totalStudents = students.length
   const passedStudents = students.filter(s => s.score >= 40).length
   const avgScore = students.length > 0 
